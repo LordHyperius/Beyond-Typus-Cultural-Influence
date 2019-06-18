@@ -1,0 +1,235 @@
+agaio_culture_region = { #Should work for Greek settlement in West Anatolia and the Balkans
+	OR = {
+		area = hudavendigar_area #Bithynia
+		area = karasi_area #Mysia
+		area = aydin_area #Asia
+		area = lydia_area #Lydia
+		area = germiyan_area #Phrygia
+		area = northern_greece_area #epirus
+		area = morea_area #Morea
+		area = western_aegean_area #Hellas		
+		area = thessaly_area #Thessaly
+		area = macedonia_area #West Macedonia
+		area = eastern_macedonia_area #East Macedonia
+		area = aegean_archipelago_area #Aegean Islands
+		area = eastern_mediterrenean_islands_area #Crete
+		area = northern_epirus_area #Ionian Islands
+		area = albania_area #Albania
+		area = northern_macedonia_area #Northern Macedonia
+		area = upper_thrace_area #Upper Thrace
+		area = northern_thrace_area #Northern Thrace
+		area = bulgaria_area #Bulgaria
+		area = lower_danube_area #Dobruja
+		area = danubian_plain_area #Lower Moesia
+		area = vidin_area #Vidin
+		province_id = 3182
+		province_id = 5094
+		province_id = 7702
+		province_id = 7701
+		province_id = 1766
+		province_id = 7700
+		province_id = 5162 #Likya
+		province_id = 2298 #Antalya
+	}
+}
+
+illyrion_culture_region = { #Should work for Greek settlement in Old Illyria
+	OR = {
+		area = east_adriatic_coast_area
+		area = herzegovina_area
+		area = bosnia_area
+		area = syrmia_area
+		area = slavonia_area
+		area = croatia_area
+		area = friuli_area
+		area = serbia_area #Serbia
+		province_id = 138
+		province_id = 7708
+		province_id = 7709
+		province_id = 7710
+		province_id = 7712
+		province_id = 76
+		province_id = 1768
+		province_id = 7098
+		area = inner_austria_area
+		area = carniola_area
+	}
+}
+graiko_culture_region = { #Should work for Greek settlement in Italy
+	OR = {
+		AND = {
+			region = italy_region
+			NOT = { area = friuli_area}
+			NOT = { area = sardinia_area}
+			NOT = { area = corsica_sardinia_area}
+			NOT = { area = liguria_area}
+			NOT = { area = south_piedmont_area}
+			NOT = {province_id = 7098}
+		}
+	}
+}
+pontic_greek_culture_region = { #Eastern Black Sea Coastline Culture
+	OR = {
+		province_id = 2447
+		area = crimea_area
+		area = imereti_area
+		area = pontus_area
+		area = rum_area
+		area = kastamonu_area
+	}
+}
+cappadocian_culture_region = {
+	OR = {
+		province_id = 5147
+		province_id = 2302
+		area = karaman_area
+		area = dulkadir_area
+		area = cukurova_area
+		area = ankara_area
+	}
+}
+nkreko_armenio_culture_region = {
+	OR = {
+		area = mardin_area
+		area = erzurum_area
+		area = north_kurdistan_area
+		area = samtskhe_area
+		area = armenia_area
+		area = shirvan_area
+	}
+}
+alexandrian_culture_region = {
+	region = egypt_region
+}
+aravikos_culture_region = {
+	region = arabia_region
+}
+hibernian_culture_region = {
+	region = ireland_area
+}
+albian_culture_region = {
+	OR = {
+		region = british_isles_region
+		province_id = 369
+	}
+}
+varangian_culture_region = {
+	OR = {
+		AND = {
+			region = scandinavia_region
+			NOT = {province_id = 369}
+		}
+		area = karelia_area
+		area = laponia_area
+	}
+}
+avissinós_culture_region = {
+	region = horn_of_africa_region
+}
+antiocheia_culture_region = {
+	OR = {
+		region = mashriq_region
+		area = rakka_area
+		area = al_jazira_area
+	}
+}
+persic_culture_region = {
+	OR = {
+		region = persia_region
+		area = iraq_arabi_area
+		area = basra_area
+	}
+}
+rhomaio_culture_region = {
+	OR = {
+		region = anatolia_region
+		area = northern_greece_area #epirus
+		area = morea_area #Morea
+		area = western_aegean_area #Hellas		
+		area = thessaly_area #Thessaly
+		area = macedonia_area #West Macedonia
+		area = eastern_macedonia_area #East Macedonia
+		area = aegean_archipelago_area #Aegean Islands
+		area = eastern_mediterrenean_islands_area #Crete
+		area = northern_epirus_area #Ionian Islands
+		area = albania_area #Albania
+		area = northern_macedonia_area #Northern Macedonia
+		area = upper_thrace_area #Upper Thrace
+		area = northern_thrace_area #Northern Thrace
+		area = bulgaria_area #Bulgaria
+		area = lower_danube_area #Dobruja
+		area = danubian_plain_area #Lower Moesia
+		area = vidin_area #Vidin
+		province_id = 3182
+		province_id = 5094
+		province_id = 7702
+		province_id = 7701
+		province_id = 1766
+		province_id = 7700
+		province_id = 2447
+		area = crimea_area
+		area = imereti_area
+	}
+}
+kirenike_culture_region = {
+	OR = {
+		area = fezzan_area
+		area = nafusa_mountains_area
+		area = cyrenaica_area
+		area = tripolitania_area
+	}
+}
+karchidoniac_culture_region = {
+	OR = {
+		area = tunisia_area
+		area = djerba_area
+		area = north_saharan_area
+		area = hautes_plaines_area
+		area = ouled_nail_area
+		area = kabylia_area
+		area = barbary_coast_area
+	}
+}
+mavritanias_culture_region = {
+	OR = {
+		area = northwest_sahara_area
+		area = southern_morocco_area
+		area = northern_morocco_area
+		area = tafilalt_area
+		area = sus_area
+		area = marrekesh_area
+		area = western_morocco_area
+	}
+}
+skythis_culture_region = {
+	OR = {
+		AND = {
+			region = crimea_region
+			NOT = { area = crimea_area}
+		}
+		area = lower_yik_area
+		area = nogai_area
+		saratov_area
+	}
+}
+vaktrianos_culture_region = {
+	OR = {
+		region = khorasan_region
+		area = khiva_area
+		area = transcaspia_area
+	}
+}
+indiki_koilada_culture_region = {
+	OR = {
+		AND = {
+			region = west_india_region
+			NOT = { area = malwa_area }
+			NOT = { area = tapti_area}
+			NOT = { area = khandesh_area}
+		}	
+		area = multan_area
+		area = sind_sagar_area
+		area = lahore_area
+		area = sirhind_area
+	}
+}
